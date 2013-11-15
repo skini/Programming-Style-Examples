@@ -56,6 +56,7 @@ class ElectionResultsMod:
           print o[2]
           print x== o[2]
     print '***********'
+    return [o[0], x, o[2]]
           
           
     #Uses second CSV and compares percentages for Romney
@@ -75,3 +76,4 @@ class ElectionResultsMod:
           print r[2]
           print x== r[2]
     print '*************'
+    return [r[0], x, r[2]]
